@@ -20,15 +20,10 @@ Gerenciamento de Funções
 Gerenciamento de Permissões
 - Um gerenciamento para permissão Laravel que listará todos os nomes de rotas usando um comando do console Laravel.
 
-Gestão de produtos
+Gestão de produtos , Categorias, Marcas 
 - Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
 
-- Gestão de Categorias
-- Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
-- 
--Gestão de Marcas
-- Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
-- #####################################################################################################
+ #####################################################################################################
 
 
 
