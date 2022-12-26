@@ -7,5 +7,44 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Instalção do projeto
+- requisitos laravel 9  php 8 > 
+- mysql
+- node e npm  
+_______________________________________________________________________________________________
+Neste projeto adicionei os seguintes módulos:
+Gerenciamento de usuários
+- Criação de gerenciamento de usuários simples usando o Laravel 9 para que seja mais fácil solicitar a permissão do Laravel.
+Gerenciamento de Funções
+- Um gerenciamento de funções simples que nos ajudará a adicionar funções para uma conta de usuário e determinar ao usuário qual permissão Laravel foi atribuída.
+Gerenciamento de Permissões
+- Um gerenciamento para permissão Laravel que listará todos os nomes de rotas usando um comando do console Laravel.
 
+Gestão de produtos
+- Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
+
+- Gestão de Categorias
+- Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
+- 
+-Gestão de Marcas
+- Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
+- ##################################################################################################################
+
+
+
+## Como rodar o projeto local  do projeto
+-  Roda o  comando composer update
+-  Roda o comando npm install && npm run dev  para instar dependencia .
+-  Configura o banco no ,env
+-  php artisan migrate
+
+## Em seguida, vamos executar o comando  para criar as permissões :
+php artisan permission:create-permission-routes
+## rodar  seeder de administrador de usuário
+php artisan db:seed --class=CreateAdminUserSeeder
+php artisan serve
+
+
+Não esqueça que sua credencial é:
+e-mail: admin@gmail.com
+senha: admin123
