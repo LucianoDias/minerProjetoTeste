@@ -35,7 +35,7 @@ Gestão de produtos
 ## Como rodar o projeto local.
 -  Roda o  comando composer update
 -  Roda o comando npm install && npm run dev  para instar dependencia .
--  Configura o banco no ,env
+-  Configurar o banco no .env
 -  php artisan migrate
 
 ## Em seguida, vamos executar o comando  para criar as permissões :
