@@ -32,7 +32,7 @@ Gestão de produtos
 
 
 
-## Como rodar o projeto local  do projeto
+## Como rodar o projeto local.
 -  Roda o  comando composer update
 -  Roda o comando npm install && npm run dev  para instar dependencia .
 -  Configura o banco no ,env
