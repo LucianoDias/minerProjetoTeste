@@ -28,7 +28,7 @@ Gestão de produtos
 - 
 -Gestão de Marcas
 - Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
-- ##################################################################################################################
+- #####################################################################################################
 
 
 
