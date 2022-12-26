@@ -23,6 +23,9 @@ Gerenciamento de Permissões
 Gestão de produtos , Categorias, Marcas 
 - Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
 
+## Observações
+Cada usuário criado e preciso  clicar em editar para dar uma Função a ele. 
+
  #####################################################################################################
 
 
@@ -37,6 +40,7 @@ Gestão de produtos , Categorias, Marcas
 php artisan permission:create-permission-routes
 ## rodar  seeder de administrador de usuário
 php artisan db:seed --class=CreateAdminUserSeeder
+Agora você tem um administrador que pode usar para fazer login e testar suas funções e permissões de usuário Laravel 9 ACL.
 php artisan serve
 
 
