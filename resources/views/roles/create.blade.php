@@ -21,7 +21,7 @@
                 @csrf
                 <div class="mb-3">
                     <label for="name" class="form-label">Nome</label>
-                    <input value="{{ old('name') }}" type="text" class="form-control" name="name" placeholder="Nome" required style="text-transform: lowercase;">
+                    <input value="{{ old('name') }}" type="text" class="form-control" name="name" placeholder="Nome" required >
                 </div>
                 
                 <label for="permissions" class="form-label">Atribuir permissões</label>

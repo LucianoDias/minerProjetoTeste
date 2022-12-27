@@ -35,7 +35,7 @@ class RolesController extends Controller
             'name' => 'required|unique:roles,name',
             'permission' => 'required',
         ]);
-        $role = Role::create(['name' => $request->get('name')]);
+        $role = Role::create(['name' => strtolower($request->get('name'))]);
         $role->syncPermissions($request->get('permission'));
         return redirect()->route('roles.index')->with('success','Regras criada com sucesso');
     }
@@ -61,7 +61,7 @@ class RolesController extends Controller
             'name' => 'required',
             'permission' => 'required',
         ]);
-        $role->update($request->only('name'));
+        $role->update(['name' => strtolower($request->name)]);
         $role->syncPermissions($request->get('permission'));
         return redirect()->route('roles.index')->with('success','Regra atualizada com sucesso');
     }

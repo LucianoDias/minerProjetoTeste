@@ -22,11 +22,7 @@
                 @csrf
                 <div class="mb-3">
                     <label for="name" class="form-label">Nome</label>
-                    <input value="{{ $role->name }}" 
-                        type="text" 
-                        class="form-control" 
-                        name="name" 
-                        placeholder="Name" required>
+                    <input value="{{ $role->name }}" type="text" class="form-control" name="name" placeholder="Nome"  required>
                 </div>
                 
                 <label for="permissions" class="form-label">Atribuir permissões</label>
