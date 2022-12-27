@@ -48,4 +48,4 @@ php artisan serve
 
 Não esqueça que sua credencial é:
 e-mail: admin@gmail.com
-senha: admin123
+senha: 123456
