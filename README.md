@@ -24,7 +24,9 @@ Gestão de produtos , Categorias, Marcas
 - Um gerenciamento de produto simples e solicite as permissões do Laravel com cada função como usuário.
 
 ## Observações
-Cada usuário criado e preciso  clicar em editar para dar uma Função a ele. 
+O usuario  com a função de admim sera criado com a seeder , Porem a função de usuario Comum tem quer criar manualmente.
+- passo 1 criar função de usuário Comum e dar as permissçoes para os modulos de produtos , categorias , marcas .
+- passo 2 criar um Usuario a senha esta padrao 123456  e  dar permissão para ele vai em editar usuário e colocar a função para ele.. 
 
  #####################################################################################################
 
