@@ -8,7 +8,7 @@
 </p>
 
 ## Instalção do projeto
-- requisitos laravel 9  php 8 > 
+- requisitos laravel 9  php 8.1
 - mysql
 - node e npm  
 _______________________________________________________________________________________________
@@ -39,7 +39,7 @@ Cada usuário criado e preciso  clicar em editar para dar uma Função a ele.
 ## Em seguida, vamos executar o comando  para criar as permissões :
 php artisan permission:create-permission-routes
 ## rodar  seeder de administrador de usuário
-php artisan db:seed --class=CreateAdminUserSeeder
+## php artisan db:seed --class=CreateAdminUserSeeder
 Agora você tem um administrador que pode usar para fazer login e testar suas funções e permissões de usuário Laravel 9 ACL.
 php artisan serve
 
