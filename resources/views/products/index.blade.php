@@ -17,7 +17,7 @@
           <tr>
              <th width="1%">Id</th>
              <th>Nome</th>
-             <th width="3%" colspan="3">Action</th>
+             <th width="3%" colspan="3">Ações</th>
           </tr>
             @foreach ($products as $key => $product)
             <tr>
