@@ -14,9 +14,9 @@
 _______________________________________________________________________________________________
 Neste projeto adicionei os seguintes módulos:
 Gerenciamento de usuários
-- Criação de gerenciamento de usuários simples usando o Laravel 9 para que seja mais fácil solicitar a permissão do Laravel.
+- Criação de gerenciamento de usuários simples  para que seja mais fácil solicitar a permissão do Laravel.
 Gerenciamento de Funções
-- Um gerenciamento de funções simples que nos ajudará a adicionar funções para uma conta de usuário e determinar ao usuário qual permissão Laravel foi atribuída.
+- Um gerenciamento de funções simples para  adicionar funções para uma conta de usuário e determinar ao usuário qual permissão.
 Gerenciamento de Permissões
 - Um gerenciamento para permissão Laravel que listará todos os nomes de rotas usando um comando do console Laravel.
 
